@@ -1,24 +1,8 @@
+body{
+  margin: 0%;
+}
 
+.img1 {
+width: 100%;
+}
 
-.beach3{
-    width: 100%;
-  }
-  
-  .h1-background{
-    color: #000;
-    background-color: #ffc107;
-    opacity: 0.7;
-    width: 70%;
-  }
-  
-  
-  .h1-hover:hover{
-    color: #000;
-    background-color: #ffc107;
-    width: 70%;
-  }
-  
-  #mainSection img{
-    border-top: 6px solid #ffc107;
-  }
-  
