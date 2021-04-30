@@ -1,0 +1,67 @@
+body{
+    display: grid;
+    grid-template-rows: 200px 1fr 150px;
+}
+
+.headerSection{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.mainSection{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.logo{
+    margin: auto;
+}
+
+.navigator{
+    display: inline-block;
+    margin: auto;
+    
+}
+
+.navigator a {
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+.navigator a:hover{
+    background-color: black;
+    color: white;
+
+}
+
+.heroimg{
+    width: 100%;
+    z-index: -1;
+}
+
+.heroimgdiv h1{
+    font-size: 50px;
+    color: white;
+}
+
+.heroimgdiv p{
+    color: white;
+}
+
+.heroimgdiv{
+    position: relative;
+    bottom: 50%;
+    padding: 0 20px;
+}
+
+button{
+    background-color:rgba(204, 204, 204, 0.281);
+}
+
+.mainSection2 video{
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+}
