@@ -1,13 +1,11 @@
-  
+
 html{
-    background-image: url('https://wallpaperaccess.com/download/wadi-rum-4682879');
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url('https://wallpaperaccess.com/download/wadi-rum-4682879') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 1920px;
-    height: auto;
-
 }
 
 body{
