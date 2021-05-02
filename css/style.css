@@ -20,8 +20,9 @@ header{
 }
 
 header img{
+
     position: relative;
-    bottom: 25px;
+    bottom: 100px;
     left: 25px;
 }
 
@@ -44,6 +45,7 @@ header nav a:hover{
     color: white;
     background-color: rgba(0, 0, 0, 0.596);
 }
+
 
 main{
     margin-top: 100px;
