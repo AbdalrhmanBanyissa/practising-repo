@@ -1,34 +1,32 @@
 body {
-    width: 500px;
-    margin: 0 auto;
-
+    width: 100%;
+    margin: auto;
   }
 
-  .form{
-      position: relative;
-      right: 13%;
+  fieldset{
+    width: 700px;
+    margin: auto;
   }
 
   main{
       display: grid;
-      grid-template-rows: 900px 1fr;
+      grid-template-rows: 700px 1fr;
+      gap: 30px;
+      padding: 30px 0;
   }
   
   div.elem-group {
-    margin: 20px 0;
+    margin: 10px 0;
   }
   
   div.elem-group.inlined {
-    width: 49%;
-    display: inline-block;
+    width: 50%;
     float: left;
-    margin-left: 1%;
   }
   
   label {
     display: block;
     font-family: 'Nanum Gothic';
-    padding-bottom: 10px;
     font-size: 1.25em;
   }
   
@@ -63,36 +61,37 @@ body {
     font-size: 1.25em;
     font-family: 'Nanum Gothic';
     border-radius: 4px;
-    cursor: pointer;
+    
   }
   
   button:hover {
-    border: 2px solid black;
-  }
-
-
-  .table{
-      width: 150%;
-      position: relative;
-      left: -37.5%;
+    background-color: rgb(78, 78, 78);
+    color: black;
+    
   }
 
   #bookingProfile {
       
-      margin-top: 100px;
+      padding: 0 25px;
       
   }
 
   #bookingProfile table{
       border-collapse: collapse;
+      margin: auto;
   }
 
-  #bookingProfile table thead th, td{
+  #bookingProfile table thead th{
       border: solid 1px;
-      width: 500px;
+      text-align: center;
+      width: 200px;
   }
 
-  #table-body td{
+  #bookingProfile table td{
+    border: solid 1px;
+    word-break: break-all;
+    text-align: center;
+    width: 200px;
+    height: 10px;
+}
 
-  }
-  
