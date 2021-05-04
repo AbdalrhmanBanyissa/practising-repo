@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/form.css">
-    <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    
 </head>
 <body>
-    <header id="myHeader">
-    
+    <header id="myHeader" class="sticky">
         <img src="" alt="">
             <nav>
             
@@ -31,10 +31,16 @@
               <a href="">Contact</a>
             </nav>
           </header>
-    <main>
         
+    <main>
+        <section class="container">
+            <img src="./img/hppldocv.jpeg" alt="">
+            <div>
+                <h1>Travil in Jordan</h1>
+                <p>The Journey Matters</p>
+            </div>
         <fieldset class="form">
-            <legend>Booking Form</legend>
+            <p class="formTitle">Booking Form</p>
 
             <form id="bookingForm" action="">
 
@@ -66,12 +72,12 @@
             <form id="bookingForm" action="">
                 <label for="location">Location</label>
                 <select name="" id="location">
-                    <option value="amman">amman</option>
-                    <option value="aqaba">aqaba</option>
-                    <option value="deadsea">dead sea</option>
-                    <option value="jerash">jerash</option>
-                    <option value="wadirum">wadi rum</option>
-                    <option value="petra">petra</option>
+                    <option value="amman">Amman</option>
+                    <option value="aqaba">Aqaba</option>
+                    <option value="deadsea">Dead sea</option>
+                    <option value="jerash">Jerash</option>
+                    <option value="wadirum">Wadi rum</option>
+                    <option value="petra">Petra</option>
                 </select>
             </div>
 
@@ -80,9 +86,43 @@
             <form id="bookingForm" action="">
                 <label for="hotel">Hotels</label>
                 <select name="" id="hotel">
-                    <option value="hotel1">hotel1</option>
-                    <option value="hotel2">hotel2</option>
-                    <option value="hotel3">hotel3</option>
+                    <optgroup label="Amman">Amman</optgroup>
+                    <option value="Royal">Royal Amman</option>
+                    <option value="Al-Houriat">Al-Houriat Hotel</option>
+                    <option value="W">W Amman Hotel</option>
+                    <option value="Rotana">Amman Rotana</option>
+                    <option value="InterContinental">InterContinental Amman</option>
+                    <option value="Regency">Regency Palace Amman</option>
+
+                    <optgroup label="Aqaba">Aqaba</optgroup>
+                    <option value="kempinski">kempinski Aqaba</option>
+                    <option value="Manara">Al Manara</option>
+                    <option value="Mövenpick">Mövenpick Aqaba</option>
+                    <option value="Hyatt">Hyatt Regency Aqaba</option>
+
+                    <optgroup label="Dead sea">Dead sea</optgroup>
+                    <option value="Regency">Ma'in Hot Springs</option>
+                    <option value="Hilton">Hilton Dead Sea </option>
+                    <option value="Kempinski">Kempinski Hotel</option>
+                    <option value="Herods">Herods Dead Sea</option>
+                    <option value="Oasis">Oasis Dead Sea Hotel</option>
+                    <option value="Isrotel">Isrotel Dead Sea Hotel</option>
+                    
+                    <optgroup label="Jerash ">Jerash </optgroup>
+                    <option value="Luxurious">Luxurious Modern Studio</option>
+                    <option value="Odibat">Odibat Studio</option>
+                    <option value="Blue">The Blue House "Gerasa”</option>
+                        
+                    <optgroup label="Petra ">Petra </optgroup>
+                    <option value="Guest">Petra Guest House Hotel</option>
+                    <option value="Marriott">Petra Marriott Hotel </option>
+                    <option value="Wonders">Seven Wonders Camp</option>
+
+                    <optgroup label="Wadi rum">Wadi rum </optgroup>
+                    <option value="Bubble">Wadi Rum Bubble Luxotel </option>
+                    <option value="Dream">Wadi Rum Dream Camp  </option>
+                    <option value="Mountain">Located in Wadi Rum Mountain view </option>
+                    <option value="Mountain">Oryx Camp </option>
                 </select>
             </div>
 
@@ -110,7 +150,7 @@
 
             <hr>
             
-                <button type="submit">Save</button>
+                <button type="submit">Submit</button>
             </form>
         </fieldset>
         <section class="table">
@@ -133,7 +173,7 @@
                 </table>
             </div>
         </section>
-
+    </section>
     </main>
     <footer id="footer">
         <div class="footcontainer">
@@ -162,6 +202,7 @@
           </div>
           <!-- /Container -->
     </footer>
+    <script src="https://kit.fontawesome.com/9e5d1913ca.js"crossorigin="anonymous"></script>
     <script src="./js/form.js"></script>
     <script src="./js/header.js"></script>
 </body>
